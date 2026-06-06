@@ -1,0 +1,13 @@
+readNPY_matlab : implements a function to read the features computed with the python code and saved as npy
+
+compute_features : is the code used to compute the localZFeat, topHatFeat, distanceFeat, centralityFeat, spatial priors
+
+feature_significance_analsis : is a script used to assess the discrimination capabilities of the given features. Used before creating the FIS object to understand which features to include in the rules.
+
+feature_visualization : shows plots of the computed features
+
+create_fis : main script that contains the creation of the mandami FIS object, the rules and the call to the GA optimization
+
+optimize_fis_rule_weights_ga: implementation of the GA algorithm for the optimization of the rules' weights and thresholds 
+
+Data/prior_patients_used : a stratified list of the patient used for the computation of the spatial priors
