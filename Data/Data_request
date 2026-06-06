@@ -1,0 +1,3 @@
+The data used are dowloaded from the ADNI dataset (https://adni.loni.usc.edu/). 
+The specific features can be computed running the "compute_features.m" and "ComputeFeatures.py" scripts. 
+The precomputed features and the specific dataset used can also be requested via email.
